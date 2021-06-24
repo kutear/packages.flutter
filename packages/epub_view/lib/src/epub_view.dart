@@ -361,7 +361,7 @@ class _EpubViewState extends State<EpubView> {
         if (chapterIndex >= 0 &&
             _getParagraphIndexBy(positionIndex: index) == 0)
           _buildDivider(_chapters[chapterIndex]),
-        Html(
+        SelectableHtml(
           data: _paragraphs[index].element.outerHtml,
           onLinkTap: (href, _, __, ___) =>
               _onLinkPressed(href!, widget.onExternalLinkPressed),

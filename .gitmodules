@@ -1,0 +1,3 @@
+[submodule "packages/epub_view/third/flutter_html"]
+	path = packages/epub_view/third/flutter_html
+	url = git@github.com:kutear/flutter_html.git
